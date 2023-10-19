@@ -1,28 +1,30 @@
-# Breast cancer diagnosis predictor
+
+# Breast Cancer Diagnosis App
 
 ## Overview
 
-The Breast Cancer Diagnosis app is a machine learning-powered tool designed to assist medical professionals in diagnosing breast cancer. Using a set of measurements, the app predicts whether a breast mass is benign or malignant. It provides a visual representation of the input data using a radar chart and displays the predicted diagnosis and probability of being benign or malignant. The app can be used by manually inputting the measurements or by connecting it to a cytology lab to obtain the data directly from a machine. The connection to the laboratory machine is not a part of the app itself.
+The Breast Cancer Diagnosis App is a machine learning-powered tool designed to aid medical professionals in breast cancer diagnosis. By utilizing a set of measurements, this app predicts the nature of a breast mass, whether benign or malignant. It presents a visual representation of input data through radar charts and displays the predicted diagnosis, along with the probability of being benign or malignant. The app can be used for manual input of measurements or be connected to a cytology lab to fetch data directly from machines. It's important to note that the connection to the laboratory machine is not part of the app itself.
 
-The app was developed as a machine learning exercice from the public dataset [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data). Note that this dataset may not be reliable as this project was developed for educational purposes in the field of machine learning only and not for professional use.
+The app was created as a machine learning exercise using the public dataset [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data). It's essential to recognize that this dataset may not be reliable, as this project was developed solely for educational purposes in the field of machine learning and is not intended for professional use.
 
-A live version of the application can be found on https://cancer-predictor-web-app-o8s9qymrznf2gh3acvsbsc.streamlit.app/ 
+A live version of the application can be accessed at [Breast Cancer Diagnosis App](https://cancer-predictor-web-app-o8s9qymrznf2gh3acvsbsc.streamlit.app/).
 
 ## Installation
 
-To run the Cell Image Analyzer locally, you will need to have Python 3.6 or higher installed. Then, you can install the required packages by running:
+To run the Breast Cancer Diagnosis App locally, ensure you have Python 3.6 or higher installed. After that, you can install the necessary packages by running:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-This will install all the necessary dependencies, including Streamlit, OpenCV, and scikit-image.
+This command will install all required dependencies, including Streamlit, OpenCV, and scikit-image.
 
 ## Usage
-To start the app, simply run the following command:
+
+To launch the app, execute the following command:
 
 ```bash
-streamlit run app.py
+streamlit run app/main.py
 ```
 
-This will launch the app in your default web browser. You can then upload an image of cells to analyze and adjust the various settings to customize the analysis. Once you are satisfied with the results, you can export the measurements to a CSV file for further analysis.
+This will open the app in your default web browser. You can upload measurements or data for analysis and adjust various settings to tailor the analysis to your needs. Once you're satisfied with the results, you can export the measurements to a CSV file for further analysis.
